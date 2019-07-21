@@ -1,9 +1,34 @@
 ﻿body {
     background-color: #d1fafb;
+    background-image: url("Resources/grass bottom.png");
+    background-repeat: no-repeat;
+    background-size: 1500px 800px;
+    min-height: 500px;
+    min-width: 900px;
+    margin-top: -35px;
 }
 
 h1 {
     text-align: center;
     font-family: Garamond, 'Times New Roman', serif;
     font-size: 100pt;
+    margin-bottom: 35px;
 }
+
+.continue {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-right: 2%;
+    margin-right: 6%;
+    background-color: #70c699;
+}
+
+.newgame {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    padding-right: 2%;
+    background-color: #70c699;
+}
+

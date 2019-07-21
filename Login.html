@@ -1,19 +1,31 @@
 ﻿<!DOCTYPE html>
 
 <html>
+<!-- Login Page for Plant Quest 2 -->
 
 <head>
     <meta charset="utf-8" />
-    <title>Quest Login</title>
+    <title>Plant Quest 2</title>
     <link style="text/css" href="Login Style.css" rel="stylesheet" />
 </head>
 
 <body>
     <h1>Plant Quest 2</h1>
-    <h3>Continue:</h3>
-    <h2>Username: <input type="text" /></h2>
-    <h2>Password: <input type="text" /></h2>
-    <button>Enter</button>
-    <h3><a>New Player</a></h3>
+    
+    <!-- Continue Options (needs to communicate with database) -->
+    <div class="continue">
+        <h3>Continue:</h3>
+        <h2>Username: <input type="text" /></h2>
+        <h2>Password: <input type="text" /></h2>
+        <button>Enter</button>
+    </div>
+
+    <!-- New Game Options (also needs to communicate with database but not as much) -->
+    <div class="newgame">
+        <h3>New Player</h3>
+        <h2>Create a username: <input type="text" /></h2>
+        <h2>Create a password: <input type="text" /></h2>
+        <button>Enter</button>
+    </div>
 </body>
 </html>
