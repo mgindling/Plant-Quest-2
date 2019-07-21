@@ -2,8 +2,8 @@
     background-color: #c4e9d6;
     background-image: url("Resources/grass-bottom-not-as-light.png");
     background-repeat: no-repeat;
-    background-size: 1500px 800px;
-    min-height: 500px;
+    background-size: 1500px 1600px;
+    min-height: 1000px;
     min-width: 900px;
     margin-top: -35px;
 }
@@ -22,6 +22,9 @@ h1 {
     padding-right: 2%;
     margin-right: 6%;
     background-color: #70c699;
+    background-image: url("Resources/tree-border.png");
+    background-size: 100% 750px;
+    min-height: 750px;
 }
 
 .newgame {
