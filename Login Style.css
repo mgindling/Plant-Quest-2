@@ -25,6 +25,7 @@ h1 {
     background-image: url("Resources/tree-border.png");
     background-size: 100% 750px;
     min-height: 750px;
+    border-radius: 15px;
 }
 
 .newgame {
@@ -33,5 +34,9 @@ h1 {
     margin-right: 5%;
     padding-right: 2%;
     background-color: #70c699;
+    background-image: url(Resources/grass-border.png);
+    background-size: 100% 750px;
+    min-height: 750px;
+    border-radius: 15px;
 }
 
