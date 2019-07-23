@@ -1,4 +1,5 @@
-﻿body {
+﻿/*General Page and Background Styling*/
+body {
     background-color: #c4e9d6;
     background-image: url("Resources/grass-bottom-not-as-light.png");
     background-repeat: no-repeat;
@@ -10,11 +11,12 @@
 
 h1 {
     text-align: center;
-    font-family: Garamond, 'Times New Roman', serif;
+    font-family: Garamond, Times, 'Times New Roman', serif;
     font-size: 100pt;
     margin-bottom: 35px;
 }
 
+/*Styling for the "CONTINUE" section*/
 .continue {
     float: left;
     width: 40%;
@@ -26,6 +28,20 @@ h1 {
     background-size: 100% 750px;
     min-height: 750px;
     border-radius: 15px;
+}
+
+.continue h3 {
+    margin-top: 75px;
+    margin-left: 50px;
+    font-size: 52px;
+}
+
+.continue h2 {
+    margin-left: 110px;
+}
+
+.continue input[type=text] {
+    width: 50%;
 }
 
 .newgame {
